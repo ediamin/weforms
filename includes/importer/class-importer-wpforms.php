@@ -476,7 +476,7 @@ class WeForms_Importer_WPForms {
         }
 
         foreach ( $field['choices'] as $choice ) {
-            $options[ $choice['value'] ] = $choice['label'];
+            $options[ $choice['label'] ] = $choice['label'];
         }
 
         return $options;
